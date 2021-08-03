@@ -1,7 +1,10 @@
 :root{
     --main-color: #FFF159;
 }
-
+@font-face {
+    font-family: Proxima Nova;
+    src: url(assets/Proxima-Nova-Light.otf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +22,7 @@ header{
     margin: auto;
     padding: 8px 0px;
     max-width: 1200px;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,4 +81,71 @@ header{
     margin-left: -16px;  
     width: 340px;
     height: 39px;
+}
+/* Segunda linha */
+.second-line{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 39px;
+}
+.location{
+    height: 40px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.pin{
+    height: 20px;
+}
+#location-l1{
+    font-size: 12px;
+    color: rgba(0,0,0,.5);
+    /* padding: 6px 0 0 8px; */
+}
+#location-l2{
+    color: #333;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list1{
+    position: relative;
+    left: -42px;
+    bottom: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.item-list{
+    margin-right: 18px;
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+    font-size: 14px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-list-2{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 18px;
+    text-decoration: none;
 }
