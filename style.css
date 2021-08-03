@@ -150,3 +150,40 @@ li{
     margin-right: 18px;
     text-decoration: none;
 }
+
+/* CONTEUDO */
+.content{
+    background-color: #E7E7E7;
+    max-width: 100vw;
+    height: 100vh;
+}
+/* CARROUSEL */
+.glider-contain{
+    max-width: 100%;
+    height: 340px;
+    margin: auto;
+}
+.glider{
+    max-width: 1600px;
+}
+.glider-next, .glider-prev{
+    background-color: rgba(110, 110, 110, 0.315);
+    height: 50px;
+    width: 50px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.left{
+    left:0px
+}
+.right{
+    right: 0px;
+}
+.dots{
+    position: relative;
+    top: -30px;
+}
+.caroucel-img{
+    width: 1600px;
+    height: 340px;
+}
