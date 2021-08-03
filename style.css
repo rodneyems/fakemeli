@@ -92,6 +92,7 @@ header{
     height: 39px;
 }
 .location{
+    margin-left: -8px;
     height: 40px;
     width: 155px;
     display: flex;
